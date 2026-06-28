@@ -1,5 +1,6 @@
-import gradio as gr
-import pandas as pd
+import streamlit as st
+
+st.title("My App")
 
 # Appliance list with default wattage
 appliances = {
